@@ -38,7 +38,7 @@ const RegistrationForm = () => {
   } = useForm<RegisterForm>({
     resolver: zodResolver(registerSchema),
     defaultValues: {
-      phone_country_code: "+62|ID", // penting!
+      phone_country_code: "+1|usa",
       country: "",
     },
   });
